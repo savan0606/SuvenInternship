@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>E-Learn</title>
+</head>
+
+<body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myInput");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+    <div class="jumbotron jumbotron-fluid p-5"
+        style="background-image:url('./img/bg5.jpg'); background-repeat: no-repeat; background-size: cover; height: 100vh;">
+        <div class="container">
+            <center>
+                <form class="row g-3" action=""
+                    style="border: 2px solid black; margin-left: 20rem; margin-right: 20rem; background-color: rgba(245, 245, 245, 0.658);">
+                    <p style="font-size: 36px;">L O G I N</p>
+                    <div class="col-md-12">
+                        <label for="validationDefaultUsername">Username</label>
+                        <input type="text" class="bg-transparent" minlength="3" placeholder="Enter Username"
+                            style="border: 1px solid grey;" id="validationDefaultUsername"
+                            aria-describedby="inputGroupPrepend2" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="validationDefaultPassword">Password</label>
+                        <input type="password" class="bg-transparent" minlength="5" style="border: 1px solid grey;"
+                            id="validationDefaultPassword" placeholder="Enter password" required>
+                    </div>
+                    <div class="col-12">
+                        <p><a href="login.html"><button class="btn btn-success" type="submit">Login</button></a></p>
+                    </div>
+                </form>
+            </center>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

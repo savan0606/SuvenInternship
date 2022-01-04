@@ -1,0 +1,52 @@
+
+.container2{
+    height: 200vh;
+}
+.mycard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #b6b9be;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+}
+.bg-color{
+    background-color: #b6b9be !important;
+}
+.bg-color2{
+  background-color: #7acc4a !important;
+}
+
+.my-req {
+  margin-top: 15rem !important;
+  margin-bottom: 3rem !important;
+}
+.mx-right {
+  margin-right: 20rem !important;
+}
+.mx-left {
+  margin-left: 18rem !important;
+}
+.card {
+  background: transparent !important;
+  border: transparent !important;
+  /* outline: transparent !important; */
+}
+.card-body a {
+  color: rgb(255, 1, 1);
+}
+.card-body:hover {
+  color: white;
+  background-color: rgb(255, 1, 1);
+}
+.card-body:hover a {
+  color: white;
+}
+.ab a:hover{
+  color: red;
+}
+.ab a:active{
+  color: red;
+}

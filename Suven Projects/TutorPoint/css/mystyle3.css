@@ -1,0 +1,36 @@
+.mx-right {
+    margin-right: 22rem !important;
+}
+.mx-left {
+    margin-left: 22rem !important;
+}
+body{
+    overflow-x: hidden;
+}
+.my-req2 {
+    margin-top: 7rem !important;
+}
+.c1{
+    width: 10%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.my-req {
+    margin-top: -13rem !important;
+    margin-bottom: 6rem !important;
+}
+.my-req1 {
+    margin-top: 5rem !important;
+    margin-bottom: 6rem !important;
+}
+.bg-color2{
+    background-color: #7acc4a !important;
+}
+.link-secondary1 {
+    color: #6c757d;
+}
+.link-secondary1:hover, .link-secondary1:focus {
+    color: #e93c11;
+}

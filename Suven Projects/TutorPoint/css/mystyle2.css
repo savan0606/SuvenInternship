@@ -1,0 +1,35 @@
+.mx-right {
+    margin-right: 26rem !important;
+}
+.mx-left {
+    margin-left: 22rem !important;
+}
+body{
+    overflow-x: hidden;
+}
+.my-req {
+  margin-top: -13rem !important;
+  margin-bottom: 6rem !important;
+  margin-right: 3rem !important;
+  margin-left: 3rem !important;
+}
+.my-req1 {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+.my-req2 {
+  margin-top: 7rem !important;
+}
+.bg-color2{
+  background-color: #7acc4a !important;
+}
+.container1{
+  width: 20;
+}
+.container{
+  width: 40%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}

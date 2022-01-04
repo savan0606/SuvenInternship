@@ -1,0 +1,9 @@
+.img1 {
+    transition: transform .7s ease-in-out;
+}
+img:hover {
+    transform: rotate(360deg);
+}
+.bg-color{
+    background-color: black !important;
+}

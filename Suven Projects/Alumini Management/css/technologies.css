@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-color: rgba(119, 119, 119, 0.3);
+}
+
+
+.bgimg{
+    background-image: url("../images/hogwarts.jpg") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.collapse{
+    background-color: #333;
+}
+
+.nav-link{
+    background-color: #333;
+    color: white;
+}
+
+.nav-link:hover,.tag:hover{
+    background-color: rgb(255, 73, 88);
+    transition: 0.3s all ease-out;
+    outline: none;
+    border: none;
+}
+
+
+.c-btn{
+    background-color: transparent;
+    border: 2px solid rgb(255, 73, 88);
+}
+
+.c-btn:hover{
+    color: white !important;
+}
+
+.far,.fas{
+    font-size: 50px;
+}
+
+@media screen and (max-width:991px) {
+    .title_main{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:531px) {
+    .title_welcome{
+        text-align:start;
+    }
+}

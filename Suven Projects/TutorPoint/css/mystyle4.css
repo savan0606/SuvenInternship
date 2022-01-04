@@ -1,0 +1,30 @@
+.mx-right {
+    margin-right: 24rem !important;
+}
+.mx-left {
+    margin-left: 20rem !important;
+}
+body{
+    overflow-x: hidden;
+}
+.my-req2 {
+    margin-top: 6rem !important;
+}
+.c1{
+    width: 25%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.my-req {
+    margin-top: -12rem;
+    margin-bottom: 6rem !important;
+}
+.bg-color2{
+    background-color: #7acc4a !important;
+}
+.my-req1 {
+    margin-top: 5rem;
+    margin-bottom: 6rem !important;
+}

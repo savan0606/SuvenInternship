@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.search_main{
+    background-color: skyblue;
+    border-radius: 0px !important;
+}

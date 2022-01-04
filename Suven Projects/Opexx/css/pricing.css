@@ -1,0 +1,22 @@
+.btn-outline-secondary1 {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+.btn-outline-secondary1:hover {
+    color: #fff;
+    background-color: #dee2e6;
+    
+}
+.card:hover{
+    border: 1px solid blue;
+    border-style:groove ;
+}
+.cardx{
+    background-clip: border-box;
+    border: 1px solid green;
+    border-radius: 0.25rem;
+}
+.cardx:hover{
+    border: 1px solid blue;
+    border-style:groove ;
+}
